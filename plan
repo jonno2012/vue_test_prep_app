@@ -1,0 +1,17 @@
+- takes a list of users limited to 20. users will be assigned b  duty for a list of days to be entered in the calendar page
+- there will be a random assign feature in the list page that will assign to b duty to every user
+- each day will be assigned to users who have not yet been assigned a day. if there are days left after all users have been
+assigned a day, the process will start again, assigning days to people without duplication.
+    - user has default placeholder (slot) saying 'not assigned'
+    - user can be manually assigned days or have days removed. this will be done  by a form input into which a date
+    string with validation will be passed.
+    - assigned users will have a color change and bold font
+    - there should be a counter showing how many days the user has been assigned
+- use global state for the users. use actions, getters etc
+- use global state for the calendar using the non actions, getters etc
+
+
+npm i @vueuse/motion
+
+import {MotionPlugin} from "@vueuse/motion"
+app.user(MotionPlugin)

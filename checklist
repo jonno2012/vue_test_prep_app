@@ -1,0 +1,12 @@
+- reactive in single page components
+- global state using storage (in both ways)
+- life-cycle hooks
+- nextTick
+- use props
+- read FAQs and learn them.
+- use reactive for something https://vuejs.org/guide/essentials/reactivity-fundamentals.html#script-setup (only works for object
+types)
+- use some complex class rendering
+- try and get modelView to work.
+- update value in parent component using v-model : method as per AssignmentTags
+- use provide() and inject()
